@@ -1,0 +1,20 @@
+@page
+@model NotesApp.Pages.NotesModel
+@{
+    ViewData["Title"] = "Notes";
+}
+
+<h1>Notes</h1>
+
+<form method="post">
+    <input type="text" asp-for="NoteText" placeholder="Enter your note" />
+    <button type="submit">Add Note</button>
+</form>
+
+<ul>
+@foreach (var note in Model.Notes)
+{
+    <li>@note.Text (@note.CreatedAt)</li>
+}
+</ul>
+
