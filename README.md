@@ -1,5 +1,5 @@
 # practice_asp_net
-pet project for learning basics of .NET platform
+project for learning basics of .NET platform
 -
 build and run locally
 - docker build -t notesapp .
