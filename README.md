@@ -1,4 +1,4 @@
-# pet_asp_net
+# practice_asp_net
 pet project for learning basics of .NET platform
 -
 build and run locally
